@@ -29,7 +29,7 @@
 #if defined(RGB_MATRIX_ENABLE)
 #    include "rgb_matrix_stuff.h"
 #endif
-#if defined(OLED_DRIVER_ENABLE)
+#if defined(OLED_ENABLE)
 #    include "oled_stuff.h"
 #endif
 #if defined(PIMORONI_TRACKBALL_ENABLE)
@@ -76,9 +76,14 @@ enum userspace_layers {
 #endif
 
 #define DEFAULT_LAYER_1_HSV HSV_CYAN
-#define DEFAULT_LAYER_2_HSV HSV_SPRINGGREEN
+#define DEFAULT_LAYER_2_HSV HSV_CHARTREUSE
 #define DEFAULT_LAYER_3_HSV HSV_MAGENTA
 #define DEFAULT_LAYER_4_HSV HSV_GOLDENROD
+
+#define DEFAULT_LAYER_1_RGB RGB_CYAN
+#define DEFAULT_LAYER_2_RGB RGB_CHARTREUSE
+#define DEFAULT_LAYER_3_RGB RGB_MAGENTA
+#define DEFAULT_LAYER_4_RGB RGB_GOLDENROD
 
 bool          mod_key_press_timer(uint16_t code, uint16_t mod_code, bool pressed);
 bool          mod_key_press(uint16_t code, uint16_t mod_code, bool pressed, uint16_t this_timer);
