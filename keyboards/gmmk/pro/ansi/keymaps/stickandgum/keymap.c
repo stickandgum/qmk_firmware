@@ -208,9 +208,9 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     #endif //RGB_MATRIX_FRAMEBUFFER_EFFECTS 
     case QMKBEST:
       if (record->event.pressed) { // when keycode QMKBEST is pressed
-          SEND_STRING("QMK rocks");
+          SEND_STRING("QMK rocks!");
         } else { // when keycode QMKBEST key is released 
-          SEND_STRING("!");
+          // SEND_STRING("!!");
         }
         break;
   }   
