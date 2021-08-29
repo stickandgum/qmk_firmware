@@ -210,7 +210,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
       if (record->event.pressed) { // when keycode QMKBEST is pressed
           SEND_STRING("QMK rocks");
         } else { // when keycode QMKBEST key is released 
-          SEND_STRING("!!");
+          SEND_STRING("!");
         }
         break;
   }   

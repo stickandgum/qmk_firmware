@@ -1,9 +1,9 @@
-# Glorious GMMK Pro / ANSI - Enhanced Keyboard
+# Glorious GMMK Pro / ANSI - Enhanced Keyboard (StickAndGum layout)
 
-Tried to incorporate full featured GMMK Pro keyboard functionality without adding unnecessary features. Included Scroll Lock and Caps LEDs. NKRO can be toggled (Fn + N).
-SHIFT and Ctrl keys for scrolling with the rotary, Fn-keys also used for screen brightness, media, PowerOff, Suspend, App Shortcuts, and RGB Toggle/Modifications. Trimmed down the amazing (currently 41) built-in RGB effects down to about 13 or so reasonable effects that feel are just enough for your entertainment without being too excessive.
+Tried to create a full featured GMMK Pro keyboard adding many features and keymappings that are not part of the default firmware. Included  scroll lock and caps indicators. NKRO can be toggled (Fn + N).
+SHIFT and Ctrl keys for scrolling with the rotary, Fn-keys also used for Laptop Screen Brightness, Media Controls, PowerOff, Suspend, App Shortcuts, and RGB Toggle along with modifications. Trimmed down the amazing (currently 41) built-in RGB effects down to about 13 or so effects for your entertainment.
 
-BIG thank you to [AndreBrait](https://github.com/andrebrait), And of course, @drashna and @filterpaper, @noroadsleft and the entire discord community.
+BIG thank you to [AndreBrait](https://github.com/andrebrait), @drashna, @filterpaper, @noroadsleft and the entire discord community.
 
 * Keymap Creator: [StickAndGum](https://github.com/StickAndGum)
 * Keyboard: [More info on GMMK Pro](https://www.pcgamingrace.com/products/glorious-gmmk-pro-75-barebone-black)
@@ -19,11 +19,11 @@ Rotary:
   - Shift:    Mouse Wheel Down/Up
   - Ctrl:     Page Down/Up
 
-Top/Default Layer:
+Top/Default Layer changes:
   - Print Screen -> Print Screen (Left of rotary)
   - Delete -> Home (Under Rotary)
   - Right Alt -> Delete (Right of Spacebar)
-  - All other keys defaults.
+  - All other Layer 1 keys remained at GMMK defaults.
 
 Fn Layer:
   - Fn + \ -> Bootloader Mode (Can also hold ESC while powering up) - If hit by mistake, just unplug and replug in.
@@ -37,14 +37,14 @@ Fn Layer:
   - Fn + F12 -> Suspend Computer
   - Fn + F11 -> Wake Computer (Necessary on MAC OS?)
   - Fn + Page Up / Down -> Laptop Screen Brightness Up/Down
-  - Fn + F1 - F5 -> Launch Calc, My Comp (Explorer), Media Player, Mail Client, Web Browser.
+  - Fn + F1 - F5 -> Launch Calc, My Comp (Explorer), Media Player, Mail Client, Web Browser respectively.
   - Fn + Up, Down, Left, Right Arrows -> Media Play, Stop, Previous, Next respectively.
 
 - RGB Information:
-  - Toggle for RGB via Fn-r (CAPS & ScrlLock still Light/Indicate)
-  - CAPS: Side Light Rainbow Indicators and Left-side RED Indicators
-  - Scroll-Lock: Fn-Home (Under Rotary) white indicator.
-  - Modifiers identified around most of the edge of keyboard / Side lights also accented (Fn-1 looks GREAT IMHO)
+  - Toggle via Fn + R (Caps & Scroll Lock will still light/indicate)
+  - CAPS: using Rainbow side Light indicators and Left-side keys with red indicators
+  - Scroll-Lock: Fn-Home (Under Rotary) using white indicator on-key only.
+  - Modifier keys around most of the edge of the keyboard / side lights also accented (Fn-1 looks GREAT IMHO)
   
 - RGB Modifing (all via Function key) all via wasdqerf (common gaming keys) - easy to remember.
   - Fn + r -> Toggle RGB
@@ -53,7 +53,7 @@ Fn Layer:
   - Fn + q   -> Increase or Decrease Saturation (use SHIFT key to lower)
   - Fn + e   -> Increase or Decrease Hue/Color (use SHIFT key to lower)
   - Fn + f   -> Increase or Decrease Speed (Using "F" for Fast!) (Use SHIFT for slower)
-  - Fn + ~, 0-9, - = keys (2nd row keys) -> 13 RGB different effects arranged to my liking. Fn-1 is my favorite.
+  - Fn + `,0-9,-,= keys (2nd row keys) -> 13 different RGB effects. Fn-1 is my favorite.
   - Fn + L -> My easter egg... "QMK rocks!"
   
 - Known issues:
